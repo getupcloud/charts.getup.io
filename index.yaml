@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  basic-app:
+  - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2022-11-14T02:35:41.76375574Z"
+    description: A Helm chart for simple Kubernetes applications
+    digest: cf5770058443ce14285c56af4b7a57096b7e8f5f3b350712f4b14a17f7fcbae0
+    name: basic-app
+    type: application
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/basic-app-0.0.3/basic-app-0.0.3.tgz
+    version: 0.0.3
+generated: "2022-11-14T02:35:41.76376014Z"
