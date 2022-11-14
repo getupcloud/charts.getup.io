@@ -1,0 +1,15 @@
+# Default values for grafana-extra-dashboards.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+default:
+  enabled: true
+
+linkerd:
+  enabled: true
+
+rabbitmq:
+  enabled: true
+
+# Include extra files. Key is filename, value is json data
+extraDashboards: {}

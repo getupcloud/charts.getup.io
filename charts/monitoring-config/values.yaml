@@ -1,0 +1,13 @@
+prometheusOperatorCRDsApiVersion: monitoring.coreos.com/v1
+
+cronitor:
+  enabled: false
+
+backup:
+  velero:
+    enabled: true
+
+ingress:
+  auth:
+    basic_username: "monitoring"
+    basic_password: "monitoring"
