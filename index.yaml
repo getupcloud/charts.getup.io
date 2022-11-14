@@ -11,4 +11,111 @@ entries:
     urls:
     - https://github.com/getupcloud/charts.getup.io/releases/download/basic-app-0.0.3/basic-app-0.0.3.tgz
     version: 0.0.3
-generated: "2022-11-14T02:35:41.76376014Z"
+  cert-manager-config:
+  - apiVersion: v2
+    appVersion: 1.16.2
+    created: "2022-11-14T02:37:43.818517647Z"
+    description: A Helm chart for Kubernetes
+    digest: f9ea5e7602e688748c28ac5e2ecdf2b84f5748ea08b76290ce0723164adf216e
+    name: cert-manager-config
+    type: application
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/cert-manager-config-0.1.2/cert-manager-config-0.1.2.tgz
+    version: 0.1.2
+  grafana-extra-dashboards:
+  - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2022-11-14T02:37:43.99590469Z"
+    description: A Helm chart for extra Grafana dashboards
+    digest: 17bf5779a3974cb5f74fa62057a94fcd081d12ca7d1472901f51fed4f957543e
+    name: grafana-extra-dashboards
+    type: application
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/grafana-extra-dashboards-0.2.2/grafana-extra-dashboards-0.2.2.tgz
+    version: 0.2.2
+  istio:
+  - apiVersion: v2
+    appVersion: 1.16.2
+    created: "2022-11-14T02:37:44.195909823Z"
+    description: A Helm chart for Kubernetes
+    digest: d352f91287e6980b770734913472c82142910204ad14b80c6ac5fe5a1017418f
+    name: istio
+    type: application
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/istio-0.2.1/istio-0.2.1.tgz
+    version: 0.2.1
+  istio-operator:
+  - apiVersion: v1
+    appVersion: 1.11.2
+    created: "2022-11-14T02:37:44.364968586Z"
+    description: Helm chart for deploying Istio operator
+    digest: 133aaa30bc0332ff2c6829134ebfee241e44ca4641c3dbce9a7872aae759a19d
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - operator
+    name: istio-operator
+    sources:
+    - https://github.com/istio/istio/tree/master/operator
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/istio-operator-1.11.2/istio-operator-1.11.2.tgz
+    version: 1.11.2
+  metabase:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-11-14T02:37:44.530878081Z"
+    description: The simplest, fastest way to get business intelligence and analytics
+      to everyone in your company
+    digest: 5c480e081a2981a27973a957b6f4e71672a618c77bb1f336235103168c8d0011
+    home: http://www.metabase.com/
+    icon: http://www.metabase.com/images/logo.svg
+    name: metabase
+    type: application
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/metabase-0.1.0/metabase-0.1.0.tgz
+    version: 0.1.0
+  monitoring-config:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-11-14T02:37:44.693539005Z"
+    description: A Helm chart for monitoring configurations
+    digest: 9811acaa0b621d2718685bbcc4fe840625a7d222e8b3568a5ad1e180a29b0538
+    name: monitoring-config
+    type: application
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/monitoring-config-1.0.1/monitoring-config-1.0.1.tgz
+    version: 1.0.1
+  storageclass:
+  - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2022-11-14T02:37:44.869853124Z"
+    description: A Helm chart for Kubernetes
+    digest: 8517cd2c368b25a6db23cbc3de6568df8c03243a60b62b6a33bea791887f4d99
+    name: storageclass
+    type: application
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/storageclass-0.0.2/storageclass-0.0.2.tgz
+    version: 0.0.2
+  tiny-controllers:
+  - apiVersion: v2
+    appVersion: v0.0.3
+    created: "2022-11-14T02:37:45.046846759Z"
+    description: A Helm chart for Kubernetes
+    digest: 8fc0d801fab86ace7c001ef7fa30feab363a9c6ac392d7df4990878140d7c510
+    name: tiny-controllers
+    type: application
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/tiny-controllers-0.0.1/tiny-controllers-0.0.1.tgz
+    version: 0.0.1
+  velero-config:
+  - apiVersion: v2
+    appVersion: 1.5.0
+    created: "2022-11-14T02:37:45.242677402Z"
+    description: A Helm chart for Kubernetes
+    digest: 1c203badeee7af60fb56615b635cd0d8df492784d7cc70cf442070fcfd0e7abe
+    name: velero-config
+    type: application
+    urls:
+    - https://github.com/getupcloud/charts.getup.io/releases/download/velero-config-0.3.0/velero-config-0.3.0.tgz
+    version: 0.3.0
+generated: "2022-11-14T02:37:45.242683702Z"
